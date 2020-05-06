@@ -1,0 +1,1 @@
+docker run -p 8080:80 -p 443:443 -v nginx.conf:/usr/local/nginx/conf/ -d nginx 
